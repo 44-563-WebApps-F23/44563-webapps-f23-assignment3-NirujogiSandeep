@@ -39,6 +39,26 @@
         
 
     </table>
+    <hr>
+    <h3>SNIPPETS</h3>
+    <blockquote cite="https://stackoverflow.com/questions/586182/how-to-insert-an-item-into-an-array-at-a-specific-index">jQuery question</blockquote>
+    <a href ="https://stackoverflow.com/questions/586182/how-to-insert-an-item-into-an-array-at-a-specific-index">stackoverflow jQery</a>
+    <pre>$.fn.exists = function(callback) {
+        var args = [].slice.call(arguments, 1);
+      
+        if (this.length) {
+          callback.call(this, args);
+        }
+      
+        return this;
+      };
+      
+      // Usage
+      $('div.test').exists(function() {
+        this.append('<p>I exist!</p>');
+      });
+    </pre>
+    <a href="https://css-tricks.com/snippets/jquery/check-if-element-exists/">css tricks</a>
 
 
 </body>
